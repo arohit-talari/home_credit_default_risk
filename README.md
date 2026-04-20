@@ -69,7 +69,17 @@ With the null structure in place, two deeper problems emerged. 18% of the data c
 
 With the core problems understood, the cleaning phase moved column by column across all seven. Missingness ranged from 2 records to 202,924 — a uniform approach would have treated fundamentally different problems identically and masked the signals that mattered most. Each column was evaluated on its own terms and handled accordingly.
 
+| Strategy | Column | Decision |
+|---|---|---|
+| Median imputation | AMT_ANNUITY | 12 nulls · imputed median 24,903.0 |
+| Median imputation | EXT_SOURCE_2 | 660 nulls · imputed median 0.5660 |
+| Fixed-value imputation | CNT_FAM_MEMBERS | 2 nulls · imputed 1.0 — single-person household |
+| Flag, do not impute | AMT_GOODS_PRICE | 278 nulls · all revolving loans — structurally valid absence |
+| Flag, do not impute | EXT_SOURCE_3 | 60,965 nulls · missingness non-random — default rate 9.3% where null vs. 7.8% where present |
+| Reclassification | OCCUPATION_TYPE | 96,391 nulls · overlap with DAYS_EMPLOYED anomaly · reclassified as 'Not Employed / Unknown' |
+| Structural validation | OWN_CAR_AGE | 202,924 nulls · maps directly to FLAG_OWN_CAR = N — structurally valid |
 
+With seven missingness scenarios resolved, encoding inconsistencies corrected, and anomalous records flagged rather than dropped, the data entering the EDA phase was structurally sound — each retained variable positioned to contribute directly to identifying what separates high-risk borrowers from low-risk ones.
 
 --- 
 <h1 align="center">Key Findings</h1>
