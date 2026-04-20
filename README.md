@@ -37,7 +37,7 @@ Determined the point at which debt burden transitions from manageable to high-ri
 
 <h2 align="left">Composite Risk Segmentation</h2>
 
-Combined age, income tier, housing stability, and DTI into a multi-variable classification framework to define high and low-risk borrower profiles. The 8.88 percentage point spread between profiles directly answers the core analytical question and gives underwriting teams a concrete basis for risk-tiered decision making.
+Combined age, income tier, housing stability, and DTI into a multi-variable classification framework to define high and low-risk borrower profiles. The **8.88 percentage point spread** between profiles directly answers the core analytical question and gives underwriting teams a concrete basis for risk-tiered decision making.
 
 <h2 align="left">SQL Execution</h2>
 
