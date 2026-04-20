@@ -46,13 +46,13 @@ Extracted statistical benchmarks, borrower segments, and risk flags across 307,5
 ---
 <h1 align="center">Dataset</h1>
 
-The analysis uses the [Home Credit Default Risk dataset](https://www.kaggle.com/competitions/home-credit-default-risk/data?select=application_train.csv) — borrower-level application data capturing creditworthiness indicators across a large population of underbanked loan applicants. The original dataset spans 307,511 records across 122 columns, covering demographic, financial, employment, and behavioral attributes.
+The analysis uses the Home Credit Default Risk dataset — borrower-level application data capturing creditworthiness indicators across a large population of underbanked loan applicants. The original dataset spans 307,511 records across 122 columns, covering demographic, financial, employment, and behavioral attributes.
 
 Before analysis began, the dataset was narrowed to a single-table structure of 25 columns — retaining only variables with direct bearing on borrower risk assessment. The full scoping rationale and exclusion decisions are documented in the Data Cleaning section.
 
 | | |
 |---|---|
-| **Source** | Kaggle — Home Credit Default Risk |
+| **Source** | Kaggle — [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data?select=application_train.csv) |
 | **File** | application_train.csv |
 | **Original Size** | 307,511 rows × 122 columns |
 | **Working Dataset** | 307,511 rows × 25 columns |
