@@ -65,6 +65,10 @@ The data presented three structural issues that required resolution before any c
 
 Prior to loading the data, a diagnostic pass identified seven columns carrying missing values. Once loaded into MySQL, null counts across all seven returned zero — empty strings had come in as empty strings rather than NULL, meaning the null framework the entire cleaning phase depended on had to be established before a single strategy could be executed.
 
+With the null structure in place, two deeper problems emerged. 18% of the data carried an unusable placeholder value in a column central to employment-based analysis — present at a scale large enough that any query run against it uncorrected would have produced wrong conclusions. Separately, a large share of null values across the dataset didn't represent missing data — they represented a real and identifiable borrower category that had no label, and would have disappeared entirely without intervention.
+
+With the core problems understood, the cleaning phase moved column by column across all seven. Missingness ranged from 2 records to 202,924 — a uniform approach would have treated fundamentally different problems identically and masked the signals that mattered most. Each column was evaluated on its own terms and handled accordingly.
+
 
 
 --- 
