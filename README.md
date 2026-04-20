@@ -21,9 +21,7 @@ Before beginning analysis, the dataset was intentionally refined:
 - **Flagged anomalous records** instead of dropping them to preserve analytical signal  
 - Created **derived metrics** to support deeper exploratory analysis
 
-The workflow was structured into two clear phases:
-1. **Data Cleaning & Transformation** — resolving structural, missingness, and encoding issues  
-2. **Exploratory Data Analysis (EDA)** — uncovering patterns tied to borrower risk  
+The project was structured across two phases — **data cleaning and transformation** to resolve structural, missingness, and encoding issues, followed by **exploratory data analysis** to uncover the patterns defining borrower risk.
 
 With a fully prepared dataset, the analysis identified a clear high-risk borrower profile - borrowers who meet this criteria default at **14.30%**, which is **77% higher** than the **8.07% portfolio benchmark**:
 
