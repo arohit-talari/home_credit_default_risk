@@ -31,6 +31,6 @@ With a fully prepared dataset, the analysis identified a clear high-risk borrowe
   - Living in **unstable housing**
   - Carrying a **debt-to-income ratio > 0.20**
 
-➡️ This group defaults at **14.30%**, which is **77% higher** than the **8.07% portfolio benchmark**  
+Borrowers who meet this criteria defaults at **14.30%**, which is **77% higher** than the **8.07% portfolio benchmark**  
 
 This **8.88 percentage point spread** directly quantifies what separates high-risk from low-risk borrowers in this portfolio, providing a clear, actionable foundation for credit risk strategy.
