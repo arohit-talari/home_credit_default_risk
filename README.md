@@ -38,8 +38,6 @@ This **8.88 percentage point spread** directly quantifies what separates high-ri
 ---
 <h1 align="center">Scripts</h1>
 
-- [Data Cleaning Script](scripts/home_credit_data_cleaning.sql)  
-Prepares the dataset for analysis by resolving missing values, correcting data inconsistencies, applying type conversions, and constructing derived variables.
+- [Data Cleaning Script](scripts/home_credit_data_cleaning.sql): Prepares the dataset for analysis by resolving missing values, correcting data inconsistencies, applying type conversions, and constructing derived variables.
 
-- [Exploratory Data Analysis (EDA) Script](scripts/home_credit_eda.sql)  
-Analyzes the cleaned dataset to identify borrower risk patterns, quantify default rate drivers, and generate the key findings presented in this project.
+- [Exploratory Data Analysis (EDA) Script](scripts/home_credit_eda.sql): Analyzes the cleaned dataset to identify borrower risk patterns, quantify default rate drivers, and generate the key findings presented in this project.
