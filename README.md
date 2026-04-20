@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="images/home_credit_group.png" width="400">
+</p>
 
 <h1 align="center">Home Credit Group - Characteristics of Default Behavior </h1>
 
