@@ -90,7 +90,7 @@ With seven missingness scenarios resolved, encoding inconsistencies corrected, a
 
 *A note on DTI and LTV*
 
-Two derived ratios serve as the primary financial inputs to the analysis. Debt-to-income ratio (DTI) measures how much of a borrower's income is committed to debt obligations — a high DTI signals a borrower who is financially stretched relative to what they earn. Loan-to-value ratio (LTV) measures how much of a purchase is being financed relative to the asset's value — a high LTV signals a borrower who is highly leveraged with little equity cushion. Neither ratio existed in the source data. Both were constructed from raw source fields before analysis began.
+Two derived ratios serve as the primary financial inputs to the analysis. **Debt-to-income ratio (DTI)** measures how much of a borrower's income is committed to debt obligations — a high DTI signals a borrower who is financially stretched relative to what they earn. **Loan-to-value ratio (LTV)** measures how much of a purchase is being financed relative to the asset's value — a high LTV signals a borrower who is highly leveraged with little equity cushion. Neither ratio existed in the source data. Both were constructed from raw source fields before analysis began.
 
 ---
 
