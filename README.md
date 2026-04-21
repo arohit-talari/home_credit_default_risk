@@ -27,7 +27,7 @@ Resolved seven distinct missingness scenarios across five strategies — each de
 
 <h3 align="left">Financial Ratio Derivation</h3>
 
-Identified Debt-to-income (DTI) and Loan-to-value (LTV) as the relevant risk metrics for this analytical question and constructed both from raw source fields — neither existed in the source data. Both ratios served as the primary quantitative inputs to segmentation and threshold analysis.
+Identified **Debt-to-income (DTI)** and **Loan-to-value (LTV)** as the relevant risk metrics for this analytical question and constructed both from raw source fields — neither existed in the source data. Both ratios served as the primary quantitative inputs to segmentation and threshold analysis.
 
 <h3 align="left">Threshold Analysis</h3>
 
