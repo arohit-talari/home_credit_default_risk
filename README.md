@@ -123,9 +123,9 @@ Among organization types with more than 500 records, Transport carries the highe
 ---
 <h2 align="center">Scripts & Documentation</h2>
 
-- **[Data Cleaning Script](scripts/home_credit_data_cleaning.sql)**: Prepares the dataset for analysis by resolving missing values, correcting data inconsistencies, applying type conversions, and constructing derived variables.
+- **[Data Cleaning Script](scripts/home_credit_data_cleaning.sql)**: Resolves the structural, missingness, and encoding issues documented in the Data Cleaning & Transformation section. Each script block is annotated with the reasoning behind every decision — not just what the code does, but why.
 
-- **[Exploratory Data Analysis (EDA) Script](scripts/home_credit_eda.sql)**: Analyzes the cleaned dataset to identify borrower risk patterns, quantify default rate drivers, and generate the key findings presented in this project.
+- **[Exploratory Data Analysis (EDA) Script](scripts/home_credit_eda.sql)**:  Runs univariate profiling, bivariate cross-tabulations, threshold analysis, and composite risk segmentation across the cleaned dataset. Each analytical block is documented with the question it was designed to answer.
 
 ---
 <h2 align="center">Technical Stack</h2>
@@ -133,9 +133,7 @@ Among organization types with more than 500 records, Transport carries the highe
 <div align="center">
 
 ![MySQL](https://img.shields.io/badge/MySQL-9.x-blue)
-![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-lightgrey)
 
 </div>
 
-- **MySQL (v9.5.0)** — data cleaning, transformation, and analysis
-- **SQL** — query development and exploratory analysis
+- **MySQL (v9.5.0)** — data cleaning, transformation, and exploratory analysis
