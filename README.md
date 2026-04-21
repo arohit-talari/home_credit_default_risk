@@ -12,7 +12,7 @@ That challenge defines this project:
 
 > What combination of borrower characteristics separates low-risk borrowers from high-risk ones?
 
-The dataset spans **307,511** loan applications across 122 columns — covering borrower demographics, income and employment profile, housing status, external risk scores, and credit history indicators. Column scoping was the first and most consequential decision. Working from understood variables outward, then filling gaps through research into Home Credit's specific lending context, 97 columns were excluded across three groups. Several columns initially flagged for removal were retained — serving as inputs to segmentation logic, risk flags, and derived metrics the analysis would depend on. The 25-column working dataset was deliberately constructed, not simply reduced.
+The dataset spans **307,511 loan applications** across 122 columns — covering borrower demographics, income and employment profile, housing status, external risk scores, and credit history indicators. Column scoping was the first and most consequential decision. Working from understood variables outward, then filling gaps through research into Home Credit's specific lending context, 97 columns were excluded across three groups. Several columns initially flagged for removal were retained — serving as inputs to segmentation logic, risk flags, and derived metrics the analysis would depend on. The 25-column working dataset was deliberately constructed, not simply reduced.
 
 Seven distinct missingness scenarios required resolution before analysis could begin — each handled on its own terms rather than through uniform imputation.
 
