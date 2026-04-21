@@ -121,14 +121,14 @@ Actively employed borrowers default at higher rates than unemployed and pensione
 Among organization types with more than 500 records, Transport carries the highest default rate at **15.75%** across 1,187 records — nearly double the portfolio benchmark. Restaurant (**11.71%**, 1,811 records) and Construction (**11.68%**, 6,721 records) follow, both characterized by irregular income and limited employment security. Employer industry type warrants inclusion as a standalone screening variable in credit underwriting decisions.
 
 ---
-<h2 align="center">Scripts</h2>
+<h2 align="center">Scripts & Documentation</h2>
 
 - **[Data Cleaning Script](scripts/home_credit_data_cleaning.sql)**: Prepares the dataset for analysis by resolving missing values, correcting data inconsistencies, applying type conversions, and constructing derived variables.
 
 - **[Exploratory Data Analysis (EDA) Script](scripts/home_credit_eda.sql)**: Analyzes the cleaned dataset to identify borrower risk patterns, quantify default rate drivers, and generate the key findings presented in this project.
 
 ---
-<h2 align="center">Tools Used</h2>
+<h2 align="center">Technical Stack</h2>
 
 <div align="center">
 
