@@ -19,6 +19,21 @@ Seven distinct missingness scenarios required resolution before analysis could b
 The analysis identified a clear high-risk profile. Borrowers who are under 40, Low or Mid income, living in unstable housing, and carrying a debt-to-income ratio above 0.20 default at **14.30%** — **77%** above the **8.07%** portfolio benchmark. The low-risk profile defaults at **5.42%**. The **8.88 percentage point spread** between the two profiles gives underwriting teams a concrete, data-driven basis for separating borrowers who are likely to repay from those who aren't.
 
 ---
+<h2 align="center">Dataset & Scope</h2>
+
+The analysis uses the Home Credit Default Risk dataset — borrower-level application data capturing creditworthiness indicators across a large population of underbanked loan applicants. The original dataset spans **307,511 records** across 122 columns, covering demographic, financial, employment, and behavioral attributes.
+
+Before analysis began, the dataset was narrowed to a single analytical table of 25 columns. The full scoping rationale and exclusion decisions are documented in the Data Cleaning section.
+
+| | |
+|---|---|
+| **Source** | Kaggle — [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data?select=application_train.csv) |
+| **File** | application_train.csv |
+| **Original Size** | 307,511 rows × 122 columns |
+| **Working Dataset** | 307,511 rows × 25 columns |
+| **Structure** | Single-level analytical dataset |
+
+---
 <h2 align="center">Analytical Methods</h2>
 
 <h3 align="left">Missing Value Strategy</h3>
@@ -40,21 +55,6 @@ Combined age, income tier, housing stability, and DTI into a borrower profile fr
 <h3 align="left">SQL Execution</h3>
 
 Extracted statistical benchmarks, borrower segments, and risk flags across **307,511 records** — applying window functions, nested subqueries, and conditional logic to support every layer of the analysis, from data preparation through final risk profiling.
-
----
-<h2 align="center">Dataset & Scope</h2>
-
-The analysis uses the Home Credit Default Risk dataset — borrower-level application data capturing creditworthiness indicators across a large population of underbanked loan applicants. The original dataset spans **307,511 records** across 122 columns, covering demographic, financial, employment, and behavioral attributes.
-
-Before analysis began, the dataset was narrowed to a single analytical table of 25 columns. The full scoping rationale and exclusion decisions are documented in the Data Cleaning section.
-
-| | |
-|---|---|
-| **Source** | Kaggle — [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data?select=application_train.csv) |
-| **File** | application_train.csv |
-| **Original Size** | 307,511 rows × 122 columns |
-| **Working Dataset** | 307,511 rows × 25 columns |
-| **Structure** | Single-level analytical dataset |
 
 ---
 <h2 align="center">Data Cleaning & Transformation</h2>
@@ -118,7 +118,7 @@ Actively employed borrowers default at higher rates than unemployed and pensione
 
 <h3 align="left">Finding 7 — Employer industry type is a meaningful and underutilized risk signal</h3>
 
-Among organization types with more than 500 records, Transport carries the highest default rate at **15.75%** across 1,187 records — nearly double the portfolio benchmark. Restaurant (**11.71%**, 1,811 records) and Construction (**11.68%**, 6,721 records) follow, both characterized by irregular income and limited employment security. Employer industry type warrants inclusion as a standalone screening variable in credit underwriting decisions.
+Among organization types with more than 500 records, Transport: type 3 carries the highest default rate at **15.75%** across 1,187 records — nearly double the portfolio benchmark. Restaurant (**11.71%**, 1,811 records) and Construction (**11.68%**, 6,721 records) follow, both characterized by irregular income and limited employment security. Employer industry type warrants inclusion as a standalone screening variable in credit underwriting decisions.
 
 ---
 <h2 align="center">Scripts & Documentation</h2>
