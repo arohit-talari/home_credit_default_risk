@@ -104,6 +104,14 @@ Age declines without exception from **11.47%** among borrowers in their 20s (44,
 
 **Finding 4 — DTI above 0.20 is the actionable financial threshold**
 
+Default risk accelerates meaningfully once a borrower's DTI exceeds 0.20 — establishing it as the primary financial signal for elevated risk. A borrower already carrying high debt relative to income who is also financing a purchase through debt rather than equity compounds that risk further. High DTI combined with High LTV produces a **12.66%** default rate across 5,127 records versus **7.33%** for Low DTI with Low LTV across 187,299 records. DTI above 0.20 flags the risk. Pairing it with high leverage amplifies it — though establishing a precise LTV threshold would require further analysis.
+
+**Finding 5 — Income tier alone is an unreliable standalone predictor**
+Mid and Low income borrowers default at nearly identical rates — **8.55%** and **8.23%** respectively — a 0.32 percentage point gap that is not meaningful at the portfolio level. High income is the only tier where income reliably suppresses default risk, at **5.43%**. The convergence between Mid and Low isn't coincidental — Low income borrowers carry the highest average DTI in the dataset at 0.2369, while Mid income borrowers earning more still carry debt burdens that close the gap earnings alone would suggest exists. Below the High income threshold, what a borrower earns matters less than how much of it is already committed. Income without debt burden context produces incomplete risk conclusions.
+
+**Finding 6 — Housing instability is a stronger default driver than employment status**
+Actively employed borrowers default at higher rates than unemployed and pensioner borrowers across every housing type examined — a pattern that holds without exception regardless of housing category. Employed renters carry the highest rate in the cross at **12.55%** across 4,676 records, while employed borrowers living with parents follow at **11.80%** across 14,621 records. Unemployed and pensioner borrowers flag at **5.40%** — well below the portfolio benchmark — because the segment is predominantly pensioners with stable fixed income rather than borrowers with no income. Housing instability is a stronger default driver than employment status in this portfolio, a finding that directly challenges conventional underwriting assumptions.
+
 
 
 ---
