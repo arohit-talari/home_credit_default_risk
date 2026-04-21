@@ -86,7 +86,21 @@ With seven missingness scenarios resolved, encoding inconsistencies corrected, a
 
 **Portfolio benchmark: 8.07% default rate across 307,511 records**
 
+*A note on DTI and LTV*
+
+Two derived ratios serve as the primary financial inputs to the analysis. Debt-to-income ratio (DTI) measures how much of a borrower's income is committed to debt obligations — a high DTI signals a borrower who is financially stretched relative to what they earn. Loan-to-value ratio (LTV) measures how much of a purchase is being financed relative to the asset's value — a high LTV signals a borrower who is highly leveraged with little equity cushion. Neither ratio existed in the source data. Both were constructed from raw source fields before analysis began.
+
+**Finding 1 — A defined borrower profile drives a 77% increase in default risk**
 Borrowers under 40, in Low or Mid income tiers, living in unstable housing, and carrying a DTI above 0.20 represent the high-risk profile — defaulting at **14.30%**, 77% above the **8.07%** portfolio benchmark. The low-risk profile defaults at **5.42%**. The **8.88 percentage point spread** between the two directly answers the core analytical question — default risk in this portfolio concentrates not within any single variable, but at the intersection of demographic, financial, and stability factors combined.
+
+**Finding 2 — Education level is the strongest demographic risk signal**
+Default rates range from **1.83%** at the academic degree level to **10.93%** at lower secondary — a nearly sixfold difference across the education spectrum. Secondary and secondary special borrowers default at **8.94%** across 218,391 records, making them the most consequential risk segment in the portfolio by volume. Education level captures long-term earning stability in a way that makes it a high-signal input for borrower segmentation.
+
+**Finding 3 — Age and regional risk tier are the two most reliable standalone risk indicators**
+Age declines without exception from **11.47%** among borrowers in their 20s (44,738 records) to **4.92%** among borrowers 60 and older (35,665 records) — every cohort lower than the one before it. Regional risk tiers follow the same pattern, scaling from **4.82%** in Low Risk regions (32,197 records) to **11.10%** in High Risk regions (48,330 records) — a **6.28 percentage point spread** across three tiers with no outlier breaking the sequence. When assessing a borrower's risk level in isolation, these are the two variables with the most consistent and reliable signal in the portfolio.
+
+**Finding 4 — DTI above 0.20 is the actionable financial threshold**
+
 
 
 ---
