@@ -81,7 +81,6 @@ With seven missingness scenarios resolved, encoding inconsistencies corrected, a
 
 --- 
 <h2 align="center">Borrower Risk Analysis</h2>
-
 ---
 
 *A note on DTI and LTV*
