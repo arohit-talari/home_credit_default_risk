@@ -69,13 +69,13 @@ With the core problems understood, the cleaning phase moved column by column acr
 
 | Strategy | Column | Decision |
 |---|---|---|
-| Median imputation | AMT_ANNUITY | 12 nulls · imputed median 24,903.0 |
-| Median imputation | EXT_SOURCE_2 | 660 nulls · imputed median 0.5660 |
-| Fixed value imputation | CNT_FAM_MEMBERS | 2 nulls · imputed 1.0 — single-person household |
-| Flag, do not impute | AMT_GOODS_PRICE | 278 nulls · all revolving loans — structurally valid absence |
-| Flag, do not impute | EXT_SOURCE_3 | 60,965 nulls · missingness non-random — flagged, not imputed |
-| Reclassification | OCCUPATION_TYPE | 96,391 nulls · DAYS_EMPLOYED overlap · reclassified 'Not Employed / Unknown' |
-| Structural validation | OWN_CAR_AGE | 202,924 nulls · maps directly to FLAG_OWN_CAR = N — structurally valid |
+| Median imputation | `amt_annuity` | 12 nulls · imputed median 24,903.0 |
+| Median imputation | `ext_source_2` | 660 nulls · imputed median 0.5660 |
+| Fixed value imputation | `cnt_fam_members` | 2 nulls · imputed 1.0 — single-person household |
+| Flag, do not impute | `amt_goods_price` | 278 nulls · all revolving loans — structurally valid absence |
+| Flag, do not impute | `ext_source_3` | 60,965 nulls · missingness non-random — flagged, not imputed |
+| Reclassification | `occupation_type` | 96,391 nulls · `days_employed` overlap · reclassified 'Not Employed / Unknown' |
+| Structural validation | `own_car_age` | 202,924 nulls · maps directly to `flag_own_car` = N — structurally valid |
 
 With seven missingness scenarios resolved, encoding inconsistencies corrected, and anomalous records flagged rather than dropped, the data entering the EDA phase was structurally sound — each retained variable positioned to contribute directly to identifying what separates high-risk borrowers from low-risk ones.
 
