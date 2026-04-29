@@ -2,7 +2,7 @@
   <img src="images/home_credit_group.png" width="400">
 </p>
 
-<h1 align="center">Home Credit Group - Borrower Risk Profiling </h1>
+<h1 align="center">Home Credit Group — Borrower Risk Profiling </h1>
 
 <h2 align="center">Project Overview</h2>
 
