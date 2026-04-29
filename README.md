@@ -29,8 +29,8 @@ Before analysis began, the dataset was narrowed to a single analytical table of 
 |---|---|
 | **Source** | Kaggle — [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data?select=application_train.csv) |
 | **File** | application_train.csv |
-| **Original Size** | 307,511 rows × 122 columns |
-| **Working Dataset** | 307,511 rows × 25 columns |
+| **Original Data** | 307,511 rows × 122 columns |
+| **Working Data** | 307,511 rows × 25 columns |
 | **Structure** | Single-level analytical dataset |
 
 ---
